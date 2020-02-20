@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Adit's app!"
+        android:onClick="onC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+    <!--        app:layout_constraintTop_toBottomOf="@+id/response2EditText"--><![CDATA[
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    >
+
+    ]]>
+
+<!--    <Button-->
+<!--        android:id="@+id/Button1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:onClick="onC"-->
+<!--        android:text="Button1"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#318214"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textBox1"-->
+<!--        tools:layout_editor_absoluteX="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Button2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:onClick="onC"-->
+<!--        android:text="Button2"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#318214"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/Button1"-->
+<!--        tools:layout_editor_absoluteX="288dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:onClick="onC"-->
+<!--        android:text="Button3"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#318214"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/Button4"-->
+<!--        tools:layout_editor_absoluteX="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Button4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:onClick="onC"-->
+<!--        android:text="Button4"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#318214"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textBox4"-->
+<!--        tools:layout_editor_absoluteX="307dp" />-->
+
+    <TextView
+        android:id="@+id/textBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Adit's app!"
+        android:onClick="onC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.000" />
+
+    <TextView
+        android:id="@+id/textBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Adit's app!"
+        android:onClick="onC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.000" />
+
+    <TextView
+        android:id="@+id/textBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Adit's app!"
+        android:onClick="onC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <SeekBar
+        android:id="@+id/SeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textBox3"
+        app:layout_constraintTop_toBottomOf="@+id/textBox1"
+        app:layout_constraintVertical_bias="0.539"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
